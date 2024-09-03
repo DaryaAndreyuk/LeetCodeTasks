@@ -27,7 +27,6 @@ public class MaxAveSubarray1 {
         double actualOutput = maxAveSubarray(nums, k);
         System.out.println(actualOutput);
 
-        // Optional: Asserting the output
         assert Math.abs(actualOutput - expectedOutput) < 1e-5 : "Test failed!";
     }
 
