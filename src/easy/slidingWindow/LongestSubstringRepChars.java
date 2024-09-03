@@ -33,7 +33,6 @@ public class LongestSubstringRepChars {
 		String input = "abcabcbb";
 		int output = longSubstringRepChars(input);
 		System.out.println(output);
-
 	}
 
 	private static int longSubstringRepChars(String input) {
@@ -43,18 +42,14 @@ public class LongestSubstringRepChars {
 
         for (int end = 0; end < input.length(); end++) {
             char currChar = input.charAt(end);
-
             // If the character is already in the set, remove the leftmost character(s) until it's not
             while (charSet.contains(currChar)) {
                 charSet.remove(input.charAt(start));
                 start++;
             }
-
             charSet.add(currChar);
             maxLength = Math.max(maxLength, end - start + 1);
         }
-
         return maxLength;
     }
-
 }
