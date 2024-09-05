@@ -21,7 +21,7 @@ package easy.slidingWindow;
 public class MinSizeSubarraySum {
 
 	public static void main(String[] args) {
-		int[] nums = { 2, 3, 1, 2, 4, 3 };
+		int[] nums = {1, 1, 1, 1, 1, 8};
 		int target = 7;
 		int output = minSizeSubarraySum(nums, target);
 		System.out.println(output);
