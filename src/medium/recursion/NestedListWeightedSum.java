@@ -1,4 +1,4 @@
-package easy.recursion;
+package medium.recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;
