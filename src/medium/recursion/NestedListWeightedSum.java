@@ -7,7 +7,6 @@ import java.util.List;
 public class NestedListWeightedSum {
 
 	public static void main(String[] args) {
-
 		List<Object> nestedList = new ArrayList<Object>();
 		nestedList.add(1);
 		nestedList.add(Arrays.asList(2, 2));
@@ -28,5 +27,4 @@ public class NestedListWeightedSum {
 		}
 		return resultSum;
 	}
-
 }
