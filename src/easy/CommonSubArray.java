@@ -25,6 +25,6 @@ public class CommonSubArray {
 		}
 		// Time Complexity: O(n + m)
 		// Space Complexity: O(min(n, m))
-		System.out.println(output);
+		System.out.print(output);
 	}
 }
