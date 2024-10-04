@@ -32,5 +32,4 @@ public class IntersectionThreeSortedArrays {
 		}
 		return -1;
 	}
-
 }
