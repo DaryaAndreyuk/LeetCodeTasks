@@ -1,7 +1,5 @@
 package easy.twoPointers;
 
-import java.util.Hashtable;
-
 public class LinkedListCycle {
 
 	public static void main(String[] args) {
