@@ -15,7 +15,21 @@ public class RemoveDuplicates {
 	}
 
 	private static int removeDuplicates(int[] nums) {
-		return 0;
+		int[] output = new int[nums.length];
+		int start = 0;
+		int finish = 0;
+		int currentIndex = 0;
+		for (int i = 1; i < nums.length; i++) {
+			if (nums[start] == nums[i]) {
+				finish += 1;
+			} else {
+				start = i;
+				finish = i;
+				output[currentIndex] = nums[i - 1];
+				currentIndex += 1;
+			}
+		}
+		return output.length;
 	}
 
 }
