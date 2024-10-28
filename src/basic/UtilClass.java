@@ -8,4 +8,11 @@ public class UtilClass {
         System.out.println();
     }
 
+	public static void printArray(String[] strings) {
+		for (String element : strings) {
+            System.out.print(element + " ");
+        }
+        System.out.println();		
+	}
+
 }
