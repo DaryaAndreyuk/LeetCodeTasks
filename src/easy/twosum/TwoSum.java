@@ -24,11 +24,7 @@ public class TwoSum {
                 return new int[] {indexMap.get(complement), i};
             }
             indexMap.put(nums[i], i);
-        }
-        
-        // Return an empty array or handle it according to your requirement if no solution exists
+        }        
         return new int[0];
-		
 	}
-
 }
