@@ -51,8 +51,5 @@ public class ReverseLinkedList {
 
         // Return the new head of the reversed list
         return reversedListHead;
-		
-
 	}
-
 }
